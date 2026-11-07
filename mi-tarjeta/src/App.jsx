@@ -1,3 +1,4 @@
+import ListaCompras from './ListaCompras';
 import Tarjeta from './Tarjeta';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
       <h1>Tarjeta de Presentación</h1>
       {/* Renderizamos el componente Tarjeta */}
       <Tarjeta />
+      <ListaCompras/>
     </div>
   );
 }
