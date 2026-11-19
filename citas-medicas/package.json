@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix react run dev --",
+    "build": "npm --prefix react run build",
+    "lint": "npm --prefix react run lint",
+    "preview": "npm --prefix react run preview"
+  },
+  "dependencies": {
+    "react-router-dom": "^7.18.6"
+  }
+}
